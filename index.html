@@ -1,165 +1,164 @@
-html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Souvik Das | A slice of life</title>
+<title>Souvik Das |</title>
 
 <style>
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family: 'Segoe UI', sans-serif;
-}
-
 body{
-background:#f5f5f5;
-color:#333;
-line-height:1.7;
+    margin:0;
+    font-family:Segoe UI, Arial, sans-serif;
+    line-height:1.7;
+    background:#f8f8f8;
+    color:#333;
 }
 
 header{
-background:#1c2833;
-color:white;
-padding:100px 20px;
-text-align:center;
+    background:#1c2833;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.profile{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    margin-bottom:20px;
 }
 
 header h1{
-font-size:3.5rem;
-margin-bottom:15px;
+    margin:10px 0;
+    font-size:3rem;
 }
 
-header p{
-font-size:1.2rem;
-max-width:900px;
-margin:auto;
+.tagline{
+    font-size:1.2rem;
+    max-width:900px;
+    margin:auto;
 }
 
 nav{
-background:#111;
-padding:15px;
-text-align:center;
-position:sticky;
-top:0;
+    background:#111;
+    padding:15px;
+    text-align:center;
 }
 
 nav a{
-color:white;
-text-decoration:none;
-margin:0 15px;
-font-weight:bold;
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
 }
 
 nav a:hover{
-color:#f4c542;
+    color:#f4c542;
 }
 
 .container{
-max-width:1100px;
-margin:auto;
-padding:60px 20px;
-}
-
-section{
-margin-bottom:60px;
-}
-
-h2{
-margin-bottom:20px;
-color:#1c2833;
+    max-width:1000px;
+    margin:auto;
+    padding:40px 20px;
 }
 
 .card{
-background:white;
-padding:25px;
-border-radius:10px;
-box-shadow:0px 2px 8px rgba(0,0,0,0.1);
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom:30px;
+}
+
+h2{
+    color:#1c2833;
+}
+
+.kolkata-banner{
+    text-align:center;
+    margin:40px 0;
+}
+
+.kolkata-banner img{
+    max-width:700px;
+    width:100%;
 }
 
 .interests span{
-display:inline-block;
-background:#1c2833;
-color:white;
-padding:8px 15px;
-border-radius:20px;
-margin:5px;
+    display:inline-block;
+    background:#1c2833;
+    color:white;
+    padding:8px 14px;
+    border-radius:20px;
+    margin:5px;
 }
 
 footer{
-background:#111;
-color:white;
-text-align:center;
-padding:30px;
-}
-
-.quote{
-font-style:italic;
-font-size:1.2rem;
-color:#555;
-text-align:center;
-margin-top:20px;
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
 }
 
 </style>
-
 </head>
 
 <body>
 
 <header>
- <div class="overlay">
 
-        <img src="Souvik-Git.png"
-             alt="Souvik Das"
-             class="profile-pic">
+<img src="Souvik-Git.png" alt="Souvik Das" class="profile">
+
 <h1>Souvik Das</h1>
 
-<p>
-Program Manager | Amateur Podcast Host |
-Explorer of History, Politics & Economics |
-Cricket Enthusiast | Traveller |
-Vedanta Explorer | Proud Bengali from Kolkata
-</p>
-
-<div class="quote">
-"Curious about people, cities, ideas and the stories that shape them."
+<div class="tagline">
+Program Manager • Coffeehouse Experience • Kolkata Enthusiast • Traveller • Cricket Lover • Curious Explorer of Ideas
 </div>
 
-<header>
-  
+</header>
+
 <nav>
 <a href="#about">About</a>
 <a href="#career">Career</a>
 <a href="#interests">Interests</a>
 <a href="#travel">Travel</a>
-<a href="#contact">Contact</a>
 </nav>
 
 <div class="container">
 
-<section id="about">
+<div class="kolkata-banner">
+<img src="kolkata.png" alt="Kolkata Skyline">
+</div>
 
-<h2>About Me</h2>
+<section id="about">
 
 <div class="card">
 
+<h2>About Me</h2>
+
 <p>
-
 Hello and welcome to my corner of the internet.
+</p>
 
-I am Souvik Das, a program management professional currently working in the aerospace sector in Digital services. Over the years, I have had the opportunity to work with organizations such as Airbus, Alstom and Accenture, contributing to programs and projects spanning engineering, digital services, technology and business transformation.
+<p>
+I am Souvik Das, a program management professional currently working in the aerospace sector. Over the years I have worked with Airbus, Alstom and Accenture across program management, digital services, transformation initiatives and complex business environments.
+</p>
 
-Professionally, I enjoy bringing structure to complexity and helping teams navigate large-scale initiatives. Personally, I am driven by curiosity.
+<p>
+Outside work, I am simply a curious person. I enjoy exploring ideas, cities, books, conversations, history, politics, economics and sport.
+</p>
 
-I hail from Kolkata (Calcutta), a city that continues to inspire me regardless of where I live. As a Bengali, I have a deep affection for its history, culture, architecture, literature and intellectual traditions. I enjoy reading about old Calcutta, its industrial heritage, its transformation through different eras and its place in modern India.
+<p>
+I hail from Kolkata (Calcutta), a city that remains close to my heart. I enjoy reading about its history, culture, architecture, intellectual traditions and industrial heritage. The city continues to inspire me and I hope its unique character and cultural richness are preserved for future generations.
+</p>
 
-This website is an extension of those interests—a place to share thoughts, articles, travel experiences, books, conversations and reflections on the world around us.
-
+<p>
+This website is where I share thoughts, experiences, travel stories, books, conversations and reflections on the world around me.
 </p>
 
 </div>
@@ -168,18 +167,20 @@ This website is an extension of those interests—a place to share thoughts, art
 
 <section id="career">
 
-<h2>Professional Journey</h2>
-
 <div class="card">
 
+<h2>Professional Journey</h2>
+
 <p>
+My professional career has taken me through multiple industries and geographies.
+</p>
 
-My career has taken me across multiple industries and geographies.
+<p>
+I have worked with Accenture, Alstom and Airbus, primarily in program and project management roles. My experience spans engineering, digital transformation, stakeholder management, delivery governance and large-scale programs.
+</p>
 
-I have worked with Airbus,Accenture and Alston, primarily in program and project management & operation roles. My experience spans digital services, engineering environments, transformation programs, stakeholder management and large-scale delivery initiatives.
-
-What I enjoy most is working at the intersection of people, technology and business outcomes.
-
+<p>
+What I enjoy most is helping people and teams turn complex ideas into successful outcomes.
 </p>
 
 </div>
@@ -188,44 +189,38 @@ What I enjoy most is working at the intersection of people, technology and busin
 
 <section id="interests">
 
-<h2>Interests & Curiosities</h2>
-
 <div class="card">
 
+<h2>Interests & Curiosities</h2>
+
 <p>
-
-Outside work, I enjoy exploring a broad range of subjects.
-
-Politics, economics, public policy and governance are recurring interests. I enjoy reading across ideological traditions—from Marxist writings and the Communist Manifesto to conservative, liberal and nationalist schools of thought. Understanding different perspectives is often more interesting than defending a single one.
-
-I generally believe societies progress through a combination of political will, capable institutions, economic opportunity, good governance and human-centered development.
-
-I consider myself broadly liberal in outlook while also appreciating the role of traditions and cultural continuity. I am a believer in free markets, globalization and open exchange of ideas, while remaining interested in how societies can balance growth with social well-being.
-
-Vedanta and Indian philosophical traditions are another area of interest. I enjoy exploring questions about ethics, meaning, consciousness and the human experience.
-
-I am also a lifelong cricket enthusiast and an admirer of sport as a reflection of culture, competition and human aspiration.
-
-Books occupy a significant portion of my shelves, though perhaps not always enough of my time. Detective fiction remains a favourite genre, alongside history, economics, politics and philosophy.
-
+I enjoy reading across different schools of thought and philosophies. My interests range from economics and governance to politics, public policy and society.
 </p>
 
-<br>
+<p>
+I have read works from very different ideological traditions—from Marxist literature and the Communist Manifesto to writings associated with cultural nationalism, liberalism and conservatism. I enjoy understanding perspectives rather than fitting neatly into labels.
+</p>
+
+<p>
+I generally consider myself a centrist, supportive of free markets, globalization and open exchange of ideas while also valuing institutions, traditions and social cohesion. Above all, I believe good governance, capable bureaucracy, economic opportunity and human well-being matter more than ideological battles.
+</p>
+
+<p>
+I am also interested in Vedanta and Indian philosophical thought, particularly questions around meaning, ethics and human nature.
+</p>
 
 <div class="interests">
 
-<span>Coffeehouse Experience Podcast</span>
+<span>Coffeehouse Experience</span>
 <span>Cricket</span>
 <span>Politics</span>
 <span>Economics</span>
 <span>Public Policy</span>
 <span>History of Calcutta</span>
 <span>Vedanta</span>
-<span>Detective Fiction</span>
+<span>Detective Novels</span>
 <span>Books</span>
-<span>Global Affairs</span>
 <span>Sports</span>
-<span>Culture</span>
 
 </div>
 
@@ -235,46 +230,24 @@ Books occupy a significant portion of my shelves, though perhaps not always enou
 
 <section id="travel">
 
+<div class="card">
+
 <h2>Travel & Food</h2>
 
-<div class="card">
-
 <p>
-
-Travel remains one of my favourite ways to understand people and cultures.
-
-Europe is my preferred region to explore and London remains one of my favourite cities. I enjoy discovering museums, bookstores, cafés, historical neighbourhoods and public spaces that reveal the story of a place.
-
-Food is another passion. My preferences remain firmly rooted in Bengali cuisine, though I am equally fond of Chinese food and the uniquely iconic Kolkata biryani.
-
-I firmly believe that one of the best ways to understand a culture is through its food, conversations and everyday life.
-
-</p>
-
-</div>
-
-</section>
-
-<section id="contact">
-
-<h2>Connect</h2>
-
-<div class="card">
-
-<p>
-📍 Bengaluru, India
+Travel is one of my favourite ways to understand people and cultures.
 </p>
 
 <p>
-📧 souvik1893@gmail.com
+Europe remains my favourite region to explore and London is among my favourite cities. I enjoy wandering through museums, bookstores, cafés, historical districts and public spaces.
 </p>
 
 <p>
-🔗 https://www.linkedin.com/in/souvik-das-iimc/
+Food is another passion. Bengali cuisine will always be home, but I am equally fond of Chinese food and the uniquely iconic Kolkata biryani.
 </p>
 
 <p>
-🎙️ Coffeehouse Experience Podcast -https://www.youtube.com/@thecoffeehouseexperience
+I also enjoy detective fiction of all kinds and own far more books than I realistically manage to finish.
 </p>
 
 </div>
@@ -286,7 +259,7 @@ I firmly believe that one of the best ways to understand a culture is through it
 <footer>
 
 <p>
-© 2026 Souvik Das | 
+© 2026 Souvik Das
 </p>
 
 </footer>
